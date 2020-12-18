@@ -18,7 +18,7 @@ class Widget : public QOpenGLWidget {
     Q_OBJECT
 public:
     Widget() : m_texture(QOpenGLTexture::Target2D) {
-        setWindowTitle("OpenGL 3.3. Qt C++");
+        setWindowTitle("OpenGL ES 2.0. Qt C++");
         resize(400, 400);
     }
 private:
